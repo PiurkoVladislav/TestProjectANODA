@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Test Project (ANODA)</string>
+    <string name="text_view">ANODA</string>
+    <string name="person_image_view_toast">Черный человечек!</string>
+    <string name="more_details_image_view_toast">Лесенка</string>
+    <string name="like_image_view_toast">Сердечко</string>
+    <string name="comments_image_view_toast">Тоже сердечко! Шучу, это прямоугольник.</string>
+    <string name="send_photo_image_view_toast">Самолетик</string>
+    <string name="save_image_viev_toast">Крестоносец</string>
+    <string name="photo_camera_image_view_toast">Куплю фотик</string>
+    <string name="send_message_image_view_toast">Самолетик улетающий</string>
+    <string name="home_image_view_toast">Продам дом</string>
+    <string name="search_image_view_toast">Вызвать Шерлока</string>
+    <string name="add_box_image_view_toast">Белый крест в черном квадрате</string>
+    <string name="favorite_image_view_toast">Куплю ограны</string>
+    <string name="person_bottom_image_view_toast">Черный человечек снизу</string>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:id="@+id/top_of_item">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:src="@drawable/ic_person"
+            android:layout_gravity="center"
+            android:onClick="onClickButton"
+            android:id="@+id/user_image_view"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="80">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/user_name_text_view"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:id="@+id/uset_location_text_viev"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:src="@drawable/ic_more_vert"
+            android:onClick="onClickButton"
+            android:layout_gravity="center"
+            android:id="@+id/more_details_image_view"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="57.5"
+        android:layout_gravity="center"
+        android:id="@+id/item_image_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:onClick="onClickButton"
+            android:src="@drawable/ic_favorite"
+            android:id="@+id/like_image_view"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:onClick="onClickButton"
+            android:src="@drawable/ic_comments"
+            android:id="@+id/comments_image_view"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:onClick="onClickButton"
+            android:src="@drawable/ic_send"
+            android:id="@+id/send_photo_image_view"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:src="@drawable/ic_choice"
+            android:id="@+id/choice_first_image_view"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:onClick="onClickButton"
+            android:src="@drawable/ic_save"
+            android:id="@+id/save_image_viev"/>
+        
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/likes_text_viev"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/information_image_viev"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="10sp"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/time_after_publication_text_view"/>
+
+</LinearLayout>
